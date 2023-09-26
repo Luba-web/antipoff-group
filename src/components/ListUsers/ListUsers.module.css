@@ -1,0 +1,25 @@
+.listGrid {
+  box-sizing: border-box;
+  list-style-type: none;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+  gap: 16px;
+  padding: 92px 48px 0;
+}
+
+@media screen and (max-width: 870px) {
+  /* стили для планшета */
+  .listGrid {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  /* стили для малого смартфона */
+  .listGrid {
+    gap: 12px;
+    padding: 64px 16px 0;
+    grid-template-columns: none;
+  }
+}

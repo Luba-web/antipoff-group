@@ -1,0 +1,22 @@
+.cardUser {
+  box-sizing: border-box;
+  border: 1px solid #f8f8f8;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 2rem;
+  width: 305px;
+  height: 263px;
+}
+
+.cardUser__avatar {
+  border-radius: 50%;
+  width: 124px;
+  height: 124px;
+  background-color: #808185;
+}
+
+.cardUser__like {
+  float: right;
+  margin-right: 20px;
+  background-color: #f8f8f8;
+}

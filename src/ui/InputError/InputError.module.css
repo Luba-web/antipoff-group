@@ -1,0 +1,9 @@
+.error {
+  display: none;
+}
+
+.active {
+  display: block;
+  color: #ff6161;
+  max-width: 500px;
+}

@@ -1,0 +1,60 @@
+.userInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 50px 120px;
+  gap: 130px;
+}
+
+.userInfo__text {
+  margin: 0;
+  display: block;
+  max-width: 630px;
+}
+
+.userInfo__info {
+  display: block;
+}
+
+.userInfo__contact {
+  display: flex;
+  gap: 5px;
+  padding: 4px;
+}
+
+.userInfo__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.userInfo__pg {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.userInfo__pg:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 890px) {
+  /* стили для планшета */
+  .userInfo {
+    padding: 20px 60px;
+    gap: 40px;
+  }
+
+  .userInfo__info {
+    grid-column: 3 / 1;
+    grid-row: 1 / 2;
+  }
+
+  .userInfo__text {
+    grid-column: 3 / 1;
+    grid-row: 2 / 3;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  /* стили для малого смартфона */
+  .userInfo {
+    padding: 10px 35px;
+  }
+}
