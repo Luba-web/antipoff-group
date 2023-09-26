@@ -8,7 +8,7 @@ import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/antipoff-group">
     <Provider store={store}>
       <React.StrictMode>
         <App />
