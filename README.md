@@ -29,11 +29,11 @@
 
 ## Как установить и запустить проект
 
-- git clone https://github.com/Luba-web/test-Antipoff-group.git
+- git clone https://github.com/Luba-web/antipoff-group.git
 - cd test-Antipoff-group
 - npm install
 - npm run dev
 
 **Deploy**
 
-[demo](https://luba-web.github.io/test-Antipoff-group/)
+[demo](https://luba-web.github.io/antipoff-group/)
